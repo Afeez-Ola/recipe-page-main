@@ -33,6 +33,17 @@ button {
     --rose-50: hsl(330, 100%, 98%);
 }
 
+.img {
+    width: 100%;
+}
+
 .segment {
-    width: 60%;
+    width: 50%;
+    background: var(--white);
+    margin: auto 10%;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    text-align: center;
 }
