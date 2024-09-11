@@ -120,3 +120,9 @@ button {
     margin-bottom: 0.4rem;
     text-indent: 10px;
 }
+
+.ingredients {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
