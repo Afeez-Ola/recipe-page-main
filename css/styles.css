@@ -46,13 +46,31 @@ button {
 
 .segment {
     width: 35%;
-    height: 95vh;
+    height: auto;
     background: var(--white);
     margin: 2rem auto;
     border-radius: 1.5rem;
-    display: flex;
-    flex-direction: column;
+    display: block;
+    /* display: flex;
+    flex-direction: column; */
     padding: 1rem 1rem;
+}
+
+.recipe_intro,
+.ingredients,
+.instructions,
+.nutrition {
+    width: 100%;
+    /* Ensure full width of container */
+    margin: 0 auto;
+    padding: 15px;
+    /* Add padding for spacing inside the container */
+    display: flex;
+    flex-wrap: wrap;
+    /* Allows wrapping within the container */
+    gap: 10px;
+    /* Adds space between elements */
+    justify-content: space-between;
 }
 
 .recipe_intro {
