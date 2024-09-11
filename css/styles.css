@@ -123,24 +123,29 @@ button {
     text-indent: 10px;
 }
 
-.ingredients {
+.ingredients,
+.instructions {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     gap: 10px;
+    margin-bottom: 1rem;
 }
 
-.ingredients h3 {
+.ingredients h3,
+.instructions h3 {
     color: var(--brown-800);
     font-weight: 700;
 }
 
-.ingredients ul {
+.ingredients ul,
+.instructions ol {
     margin: 0;
     padding: 0 1.2rem;
 }
 
-.ingredients ul li {
+.ingredients ul li,
+.instructions ol li {
     font-weight: 400;
     font-size: 12px;
     margin-bottom: 0.4rem;
