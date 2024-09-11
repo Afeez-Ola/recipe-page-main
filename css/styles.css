@@ -5,6 +5,12 @@
     box-sizing: border-box;
 }
 
+html,
+body {
+    height: 100vh;
+    margin: 0;
+}
+
 body {
     background: var(--stone-100);
     color: var(--stone-600);
@@ -40,21 +46,36 @@ button {
 
 .segment {
     width: 35%;
-    height: 100vh;
-    overflow: hidden;
+    height: 95vh;
     background: var(--white);
-    margin: auto auto;
+    margin: 2rem auto;
     border-radius: 1.5rem;
     display: flex;
     flex-direction: column;
     padding: 1rem 1rem;
 }
 
+.recipe_intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
 .recipe_image {
     width: 100%;
     margin: 20px 10px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
 }
 
 .recipe_image img {
     width: 100%;
+    border-radius: 1rem;
+}
+
+.recipe_intro_note {
+    margin: 1rem auto;
+    display: flex;
+    flex-direction: column;
 }
